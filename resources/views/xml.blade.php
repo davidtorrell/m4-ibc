@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<paisos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquema/paisos.xsd">
+<paisos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="{{asset('esquema/paisos.xsd')}}">
 
     @foreach($retorn as $clau => $valor)
     <pais id="{{$clau}}">
