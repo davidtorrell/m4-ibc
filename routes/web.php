@@ -2,18 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+// Route::get('/paisos.xml', 'baseController@index');
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/paisos.xml', 'baseController@index');
+Route::get('/base.xml', 'baseController@base')->name('base');
+
+Route::get('/estil.xml', 'baseController@estil');
+
+Route::get('/esquema.xml', 'baseController@esquema');
+
+Route::get('/if.xml', 'baseController@if');
+
+Route::get('/javascript.html', 'baseController@javascript');

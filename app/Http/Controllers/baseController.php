@@ -8,16 +8,50 @@ use Illuminate\Support\Facades\Http;
 
 class baseController extends Controller
 {
-    public function index()
+    private function get_api()
     {
-        $retorn = array();
+        $r = array();
 
         $resposta = Http::get('https://restcountries.eu/rest/v2/regionalbloc/eu');
+        $r = $resposta->json();
 
-        $retorn = $resposta->json();
+        return $r;
+    }
 
-        // dd($retorn);
+    public function base()
+    {
+        $paisos = array();
+        $paisos=$this->get_api();
 
-        return response()->view('xml', compact('retorn'))->header('Content-Type', 'text/xml');
+        return response()->view('base', compact('paisos'))->header('Content-Type', 'text/xml');
+    }
+
+    public function estil()
+    {
+        $paisos = array();
+        $paisos = $this->get_api();
+
+        return response()->view('estil', compact('paisos'))->header('Content-Type', 'text/xml');
+    }
+
+    public function esquema()
+    {
+        $paisos = array();
+        $paisos = $this->get_api();
+
+        return response()->view('esquema', compact('paisos'))->header('Content-Type', 'text/xml');
+    }
+
+    public function if()
+    {
+        $paisos = array();
+        $paisos = $this->get_api();
+
+        return response()->view('if', compact('paisos'))->header('Content-Type', 'text/xml');
+    }
+
+    public function javascript()
+    {
+        return view('javascript');
     }
 }

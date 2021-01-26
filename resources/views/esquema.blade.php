@@ -3,7 +3,7 @@
 <paisos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="{{asset('esquema/paisos.xsd')}}">
 
-    @foreach($retorn as $clau => $valor)
+    @foreach($paisos as $clau => $valor)
     <pais id="{{$clau}}">
         @foreach($valor as $clau2 => $valor2)
         @if(!is_array($valor2))
@@ -12,5 +12,4 @@
         @endforeach
     </pais>
     @endforeach
-
 </paisos>
