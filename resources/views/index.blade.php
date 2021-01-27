@@ -88,7 +88,7 @@
             <div class="col-sm-6 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Accés API</h5>
+                        <h5 class="card-title">Repositori</h5>
                         <p class="card-text">Repositori GITHUB con està el contingut d'aquest projecte.</p>
                         <a href="https://github.com/davidtorrell/m4-ibc" target="_blank"
                             class="btn btn-primary">Anar</a>
