@@ -18,6 +18,11 @@ class baseController extends Controller
         return $r;
     }
 
+    public function index()
+    {
+        return view('index');
+    }
+
     public function base()
     {
         $paisos = array();
@@ -32,6 +37,14 @@ class baseController extends Controller
         $paisos = $this->get_api();
 
         return response()->view('estil', compact('paisos'))->header('Content-Type', 'text/xml');
+    }
+
+    public function transformador()
+    {
+        $paisos = array();
+        $paisos = $this->get_api();
+
+        return response()->view('transformador', compact('paisos'))->header('Content-Type', 'text/xml');
     }
 
     public function esquema()
