@@ -21,7 +21,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Estructura base d'arxiu XML consultant a una API.</p>
                         <a href="{{route('base')}}" target="_blank" class="btn btn-primary">Anar</a>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML amb ESQUEMA</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Estructura basica d'arxiu XML amb arxiu XSD per validar l'esquema.</p>
                         <a href="{{route('esquema')}}" target="_blank" class="btn btn-primary">Anar</a>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML amb TRANSFORMADORS </h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Estructura d'arxiu amb transformadors per visualizar unicament el nom</p>
                         <a href="{{route('transformador')}}" target="_blank" class="btn btn-primary">Anar</a>
                     </div>
                 </div>
@@ -48,7 +48,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML amb ESTIL (CSS) </h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Estructura d'arxiu HTML amb el framework bootstrap per mostar pàgina en
+                            HTML.</p>
                         <a href="{{route('estil')}}" target="_blank" class="btn btn-primary">Anar</a>
                     </div>
                 </div>
@@ -57,7 +58,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML amb CONDICIONALS (IF) </h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Estructura com l'anterior exemple però amb sentències IF amb control XML i
+                            mostrar a l'inversa.</p>
                         <a href="{{route('if')}}" target="_blank" class="btn btn-primary">Anar</a>
                     </div>
                 </div>
@@ -66,8 +68,20 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML amb JAVASCRIPT ajax (XPATH)</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Estructura de pàgina amb HTML amb consulta via AJAX amb input per poder
+                            filtrar via XPATH.</p>
                         <a href="{{route('javascript')}}" target="_blank" class="btn btn-primary">Anar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Accés API</h5>
+                        <p class="card-text">API de contingut en format JSON que previament es consulta per generar el
+                            XML.</p>
+                        <a href="https://restcountries.eu/rest/v2/regionalbloc/eu" target="_blank"
+                            class="btn btn-primary">Anar</a>
                     </div>
                 </div>
             </div>
