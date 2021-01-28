@@ -15,9 +15,18 @@
 <body>
     <h1 class="text-center mt-3">M4 IBC</h1>
     <br />
+
     <div class="container">
         <div class="row">
+            <div class="col-sm-12">
+                <p class="col-sm-12">Tota la base del projecte es gestiona amb el framework Laravel, i la
+                    informació
+                    per
+                    generar els XML es fa
+                    amb una API de informació de països.</p>
+            </div>
             <div class="col-sm-6">
+
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML</h5>
