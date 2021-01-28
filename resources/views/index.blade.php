@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 mb-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML amb ESTIL (CSS) </h5>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 mb-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Base XML amb JAVASCRIPT ajax (XPATH)</h5>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 mb-4">
+            <div class="col-sm-6 mb-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Accés API</h5>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 mb-4">
+            <div class="col-sm-6 mb-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Repositori</h5>
